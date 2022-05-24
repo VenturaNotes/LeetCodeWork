@@ -4,6 +4,8 @@ class Solution(object):
         count1 = -1
         count2 = -1
         
+        #Changed?
+        
         for i in nums:
             count1+=1
             for j in nums:
@@ -11,4 +13,3 @@ class Solution(object):
                 if count1 != count2 and i + j == target:
                     return [count1,count2]
             count2 = -1
-                    
